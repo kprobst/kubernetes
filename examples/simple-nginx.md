@@ -43,8 +43,6 @@ This should print the service that has been created, and map an external IP addr
 gcloud compute forwarding-rules list
 ```
 
-In order to access your nginx landing page, you also have to make sure that traffic from external IPs is allowed. Do this by opening a firewall to allow traffic on port 80.
-
 ### Next: Configuration files
 Most people will eventually want to use declarative configuration files for creating/modifying their applications.  A [simplified introduction](simple-yaml.md)
 is given in a different document.
